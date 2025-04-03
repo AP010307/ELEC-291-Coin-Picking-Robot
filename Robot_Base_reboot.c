@@ -1,4 +1,4 @@
-///////USE THIS - FINAL//////////
+///////USE THIS - FINALN- USE THIS FOR DEMO//////////
 
 #include <EFM8LB1.h>
 #include <stdlib.h>
