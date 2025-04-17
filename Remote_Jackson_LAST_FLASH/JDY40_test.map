@@ -1,0 +1,650 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+                              c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o (exit)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+                              JDY40_test.o (__do_copy_data)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+                              JDY40_test.o (__do_clear_bss)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                              JDY40_test.o (strcmp)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(iob.o)
+                              usart.o (__iob)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(printf.o)
+                              JDY40_test.o (printf)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(puts.o)
+                              JDY40_test.o (puts)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                              JDY40_test.o (sprintf)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(printf.o) (vfprintf)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                              c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+                              c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(printf.o) (__prologue_saves__)
+c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+                              c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(printf.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__iob               0x6               c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(iob.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+LOAD JDY40_test.o
+LOAD usart.o
+LOAD Software_UART.o
+START GROUP
+LOAD c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a
+LOAD c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a
+LOAD c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libatmega328.a
+END GROUP
+                0x00020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x0000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1302
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x00000068                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000068                __ctors_start = .
+ *(.ctors)
+                0x00000068                __ctors_end = .
+                0x00000068                __dtors_start = .
+ *(.dtors)
+                0x00000068                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000068        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+                0x00000068                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000068        0xc c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000074       0x16 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+                0x00000074                __do_copy_data
+ .init4         0x0000008a       0x10 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000008a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000009a        0x8 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+ *(.init9)
+ *(.text)
+ .text          0x000000a2        0x4 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+                0x000000a2                __vector_22
+                0x000000a2                __vector_1
+                0x000000a2                __vector_24
+                0x000000a2                __vector_12
+                0x000000a2                __bad_interrupt
+                0x000000a2                __vector_6
+                0x000000a2                __vector_3
+                0x000000a2                __vector_23
+                0x000000a2                __vector_25
+                0x000000a2                __vector_13
+                0x000000a2                __vector_17
+                0x000000a2                __vector_19
+                0x000000a2                __vector_7
+                0x000000a2                __vector_5
+                0x000000a2                __vector_4
+                0x000000a2                __vector_9
+                0x000000a2                __vector_2
+                0x000000a2                __vector_21
+                0x000000a2                __vector_15
+                0x000000a2                __vector_8
+                0x000000a2                __vector_14
+                0x000000a2                __vector_10
+                0x000000a2                __vector_18
+                0x000000a2                __vector_20
+ .text          0x000000a6      0x3a8 JDY40_test.o
+                0x000000a6                Configure_Pins
+                0x000000c0                LCD_pulse
+                0x000000c6                LCD_byte
+                0x0000013a                WriteData
+                0x0000014e                WriteCommand
+                0x00000162                LCD_4BIT
+                0x000001ae                LCDprint
+                0x00000216                SendATCommand
+                0x000002a2                ReceptionOff
+                0x000002c8                ReadChannel
+                0x00000314                Timer0_init
+                0x00000326                __vector_16
+ .text          0x0000044e       0xfe usart.o
+                0x0000044e                usart_init
+                0x0000048a                usart_putchar
+                0x00000498                usart_putchar_printf
+                0x000004b4                usart_getchar
+                0x000004c2                usart_kbhit
+                0x000004ce                usart_pstr
+                0x000004e6                usart_gets
+ .text          0x0000054c      0x2c0 Software_UART.o
+                0x0000054c                __vector_11
+                0x000006f6                Reset_Software_Uart
+                0x00000710                Init_Software_Uart
+                0x00000730                SendByte1
+                0x00000744                SendString1
+                0x0000075c                GetByte1
+                0x0000076e                GetString1
+                0x000007ac                GetString1_timeout
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(iob.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(printf.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(puts.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+ .text          0x0000080c        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+                0x0000080c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x0000080c      0x4a4 JDY40_test.o
+                0x0000080c                main
+ .text.libgcc.mul
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000cb0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00000cb0       0x12 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                0x00000cb0                strcmp
+ .text.avr-libc
+                0x00000cc2       0x2c c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(printf.o)
+                0x00000cc2                printf
+ .text.avr-libc
+                0x00000cee       0x60 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(puts.o)
+                0x00000cee                puts
+ .text.avr-libc
+                0x00000d4e       0x46 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                0x00000d4e                sprintf
+ .text.avr-libc
+                0x00000d94      0x3a4 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x00000d94                vfprintf
+ .text.avr-libc
+                0x00001138       0x16 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00001138                strnlen_P
+ .text.avr-libc
+                0x0000114e       0x16 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x0000114e                strnlen
+ .text.avr-libc
+                0x00001164       0x70 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x00001164                fputc
+ .text.avr-libc
+                0x000011d4       0xbc c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x000011d4                __ultoa_invert
+ .text.libgcc.mul
+                0x00001290        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00001290        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00001290        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x00001290       0x38 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+                0x00001290                __prologue_saves__
+ .text.libgcc.builtins
+                0x000012c8        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x000012c8        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x000012c8        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x000012c8        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x000012c8        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x000012c8        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x000012c8       0x36 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+                0x000012c8                __epilogue_restores__
+ .text.libgcc.builtins
+                0x000012fe        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x000012fe        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x000012fe        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+                0x000012fe                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000012fe        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+                0x000012fe                _exit
+                0x000012fe                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000012fe        0x4 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001302                _etext = .
+
+.data           0x00800100      0x19e load address 0x00001302
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+ .data          0x00800100        0x6 JDY40_test.o
+                0x00800100                pause
+                0x00800104                pitch
+ .data          0x00800106        0xe usart.o
+ .data          0x00800114        0x0 Software_UART.o
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(iob.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(printf.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(puts.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+ .data          0x00800114        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800114      0x189 JDY40_test.o
+ *(.gnu.linkonce.d*)
+                0x0080029e                . = ALIGN (0x2)
+ *fill*         0x0080029d        0x1 
+                0x0080029e                _edata = .
+                0x0080029e                PROVIDE (__data_end, .)
+
+.bss            0x0080029e       0x18
+                0x0080029e                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080029e        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+ .bss           0x0080029e        0xc JDY40_test.o
+                0x0080029e                sound_countdown
+                0x008002a0                speaker_flag
+                0x008002a2                count_3
+                0x008002a4                count_2
+                0x008002a6                count_1
+                0x008002a8                beep_flag
+ .bss           0x008002aa        0x0 usart.o
+ .bss           0x008002aa        0x6 Software_UART.o
+                0x008002aa                TXD_DATA
+                0x008002ab                RXD_DATA
+                0x008002ac                RXD_SR
+                0x008002ad                RXD_FLAG
+                0x008002ae                TXD_state
+                0x008002af                RXD_state
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(iob.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(printf.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(puts.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+ .bss           0x008002b0        0x0 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008002b0        0x6 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(iob.o)
+                0x008002b0                __iob
+                0x008002b6                PROVIDE (__bss_end, .)
+                0x00001302                __data_load_start = LOADADDR (.data)
+                0x000014a0                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008002b6        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x008002b6                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x5c
+ *(.comment)
+ .comment       0x00000000       0x30 JDY40_test.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 usart.o
+ .comment       0x00000030       0x31 Software_UART.o
+ .comment       0x00000030       0x31 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(iob.o)
+ .comment       0x00000030       0x31 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(printf.o)
+ .comment       0x00000030       0x31 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(puts.o)
+ .comment       0x00000030       0x31 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .comment       0x00000030       0x2c c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                 0x2d (size before relaxing)
+ .comment       0x0000005c       0x31 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fputc.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x68
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 JDY40_test.o
+ .debug_aranges
+                0x00000028       0x20 usart.o
+ .debug_aranges
+                0x00000048       0x20 Software_UART.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1c45
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+ .debug_info    0x000005f4     0x1087 JDY40_test.o
+ .debug_info    0x0000167b      0x2db usart.o
+ .debug_info    0x00001956      0x2ef Software_UART.o
+
+.debug_abbrev   0x00000000      0xbf9
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+ .debug_abbrev  0x000005a2      0x2f7 JDY40_test.o
+ .debug_abbrev  0x00000899      0x1cc usart.o
+ .debug_abbrev  0x00000a65      0x194 Software_UART.o
+
+.debug_line     0x00000000      0xc06
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+ .debug_line    0x0000001a      0x75a JDY40_test.o
+ .debug_line    0x00000774      0x185 usart.o
+ .debug_line    0x000008f9      0x30d Software_UART.o
+
+.debug_frame    0x00000000      0x348
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x18c JDY40_test.o
+ .debug_frame   0x0000018c       0xc8 usart.o
+ .debug_frame   0x00000254       0xf4 Software_UART.o
+
+.debug_str      0x00000000      0x606
+ *(.debug_str)
+ .debug_str     0x00000000      0x208 c:/atmega/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328.o
+ .debug_str     0x00000208      0x2ce JDY40_test.o
+                                0x313 (size before relaxing)
+ .debug_str     0x000004d6       0xc4 usart.o
+                                0x180 (size before relaxing)
+ .debug_str     0x0000059a       0x6c Software_UART.o
+                                0x1f7 (size before relaxing)
+
+.debug_loc      0x00000000      0xc91
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x686 JDY40_test.o
+ .debug_loc     0x00000686      0x23d usart.o
+ .debug_loc     0x000008c3      0x3ce Software_UART.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000       0x18
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x18 JDY40_test.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(JDY40_test.elf elf32-avr)
+LOAD linker stubs
