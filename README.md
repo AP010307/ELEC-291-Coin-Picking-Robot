@@ -1,1 +1,2 @@
 # ELEC_291_PROJECT_2
+This project is the ultimatum of my ELEC 291 course, where my team was tasked with creating a robot that could pick up 20 coins. The robot was designed to be able to stay within a perimeter powered by AC signal while detecting and picking up coins using multipl solenoids. 
